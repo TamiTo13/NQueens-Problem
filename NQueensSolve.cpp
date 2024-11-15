@@ -174,7 +174,9 @@ int main() {
     srand(time(0));
     NQueenSolve solver(5);
     solver.start();
-    return 0;
+
+    delete solver;
+    return 0;    
 }
 
 
