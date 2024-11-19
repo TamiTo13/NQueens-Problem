@@ -172,7 +172,7 @@ public:
 
 int main() {
     srand(time(0));
-    NQueenSolve solver(5);
+    NQueenSolve solver(5000); //for 5000x5000 board
     solver.start();
 
     delete solver;
